@@ -1,0 +1,15 @@
+#projects {
+    scroll-margin-top: 85px;
+    text-align: center;
+    margin-top: 55px;
+
+    .projectsList {
+
+        display: flex;
+        justify-content: space-around;
+        img {
+            width: 80px;
+            height: 80px;
+        }
+    }
+}

@@ -1,0 +1,47 @@
+.Iam {
+    padding: 2em 5em;
+    font: normal 40px/50px Montserrat, sans-serif;
+    color: #000;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80vh;
+
+    p {
+        height: 50px;
+        float: left;
+        margin: 0;
+    }
+
+    b {
+        float: left;
+        overflow: hidden;
+        position: relative;
+        height: 50px;
+        top: 0px;
+    }
+
+    .innerIam {
+        display: inline-block;
+        color: #000000;
+        position: relative;
+        top: 0;
+        left: 0;
+        animation: 15s move infinite 3s;  
+    }
+
+    img {
+        margin-left: 50px;
+        border-radius: 50%;
+        border: 5px solid #000;
+    }
+}
+
+@keyframes move{
+    0%  { top: 0px; }
+    20% { top: -50px; }
+    40% { top: -100px; }
+    60% { top: -150px; }
+    80% { top: -200px; }
+}
+
